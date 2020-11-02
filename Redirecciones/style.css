@@ -1,0 +1,93 @@
+body{
+	background-size: 100%;
+	font-family: sans-serif;
+	color: white;
+	margin: 15px;
+}
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 5px 0 0;
+}
+#navegador li a {
+   padding: 2px 5px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+ul{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-content: space-between;
+   height:50px;
+}
+.titulo{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.parrafo1{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	background-color:#ff0000b0;
+	text-align: left;
+}
+.historia{
+	font-weight: bold;
+	font-size: 18px;
+	background-color:#ff0000b0;
+}
+.importancia-biologica{
+	font-weight: bold;
+	font-size: 18px;
+	background-color:#ff0000b0;
+}
+header{
+	margin-bottom: 140px;
+}
+p{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 650px){
+	.titulo{
+		height: 200px;
+	}
+	header{
+		margin-bottom: 200px;
+	}
+	iframe{
+		width: 80%;
+	}
+}
+
+@media (max-width: 550px){
+	.titulo{
+		height: 220px;
+	}
+	header{
+		margin-bottom: 220px;
+	}
+	ul{
+		height: 80px;
+	}
+}

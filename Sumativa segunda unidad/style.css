@@ -1,0 +1,30 @@
+body{
+	font-family: sans-serif;
+	margin: 28px;
+	background-image:url(https://i.pinimg.com/originals/93/8e/aa/938eaaaf5b0215e288290f1d0dfd280e.jpg);
+}
+.introduction{
+	text-align: center;
+	font-size: 18px;
+}
+.doc1{
+	text-align: justify;
+}
+p{
+	background-color:#0000008a;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+h3{
+	background-color: #0000008a;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+h1{
+	background-color: #0000008a;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
